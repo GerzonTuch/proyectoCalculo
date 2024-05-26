@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>MiPrimerProyectoEnEclipse</title>
+      <style type="text/css">
+          body {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh; /* Ajusta la altura al 100% de la ventana */
+         margin: 0; /* Elimina el margen predeterminado */
+      }
+      img {
+         max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+         max-height: 100%; /* Ajusta la altura máxima de la imagen */
+      }
+</style>
+   </head>
+   <frameset rows = "15%, 60%" frameborde="SI" border="1">
+      <frame scrolling="NO" name = "superior" src = "datosPersonales.html" />
+      <frameset cols = "20%, 55%, 25%">
+         <frame scrolling="NO" name = "menu" src = "menu.html" />
+         <frame scrolling="SI" name = "principal" img src="ejemplos/principal/home.jpeg" alt="Mi Imagen" />
+         <frame scrolling="NO" name = "creatividad" src = "creatividad.html" />
+      </frameset>
+      <noframes>
+         <body>
+         </body>
+      </noframes>
+   </frameset>
+</html>
